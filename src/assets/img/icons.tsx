@@ -13,7 +13,8 @@ import cybersegurityIcon from './cibersegurity.svg'
 import microservicesIcon from './microservices.svg'
 import gitIcon from './git.svg'
 import menuIcon from './menu.svg'
+import arrowup from './arrow-up.svg'
 
 export { downloadIcon, linkedinIcon, githubIcon, reactIcon, typescriptIcon, postgresqlIcon, redisIcon, dockerIcon, CSS3Icon,
-  javaIcon, AWSIcon,cybersegurityIcon, microservicesIcon, gitIcon, menuIcon
-}
+  javaIcon, AWSIcon,cybersegurityIcon, microservicesIcon, gitIcon, menuIcon, arrowup }
+  

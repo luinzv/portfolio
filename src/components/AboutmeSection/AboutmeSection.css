@@ -10,22 +10,21 @@
     width: 80%;
 }
 
-header h3 {
-    font-size: 15px;
-    color: #5a8bd5;
-    margin: 0;
-    font-weight: 400;
-}
 
-header h2 {
+.header-about h2 {
     font-size: 24px;
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-weight: 600;
+}
+
+.header-about h3 {
+    font-size: 15px;
+    color: #5a8bd5;
     font-weight: 500;
-    unicode-bidi: isolate;
 }
 
 .about {
