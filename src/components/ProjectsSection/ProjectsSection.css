@@ -1,0 +1,117 @@
+.project-container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category-projects {
+    width: 80%;
+    height: 150px;
+    display: grid;
+}
+
+.category-projects h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #5a8bd5;
+}
+
+.category-projects h2 {
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: #252627;
+    padding: 3.5px;
+    max-width: 400px;
+    border: .5px solid #424242;
+}
+
+.filters button {
+    color: #C0BDBD;
+    font-size: 9px;
+    text-align: center;
+    width: 100%;
+    padding: 3.5px;
+}
+
+.filters .selected {
+    text-decoration: underline;
+}
+
+.projectList {
+    width: 80%;
+}
+
+.project {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    border-bottom: 1px solid #272829;
+}
+
+.project .img-project {
+    height: fit-content;
+    width: 100%;
+}
+
+.category-project h3 {
+    font-size: 15px;
+    color: #5a8bd5;
+    font-weight: 400;
+}
+
+.text h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-block-start: 0.50em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.text p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-weight: 200;
+}
+
+.ancors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.ancors a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+    width: 100px;
+    padding: 8px 0;
+    border-radius: 12px;
+    background-color: #272829;
+    font-size: 14px;
+    cursor: pointer;
+    color: #c7c7c7;
+    border: .5px solid #373839;
+    text-decoration: none;
+    font-weight: 400;
+}

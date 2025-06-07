@@ -1,5 +1,8 @@
 import './App.css'
 import { downloadIcon, linkedinIcon, githubIcon, reactIcon, typescriptIcon, postgresqlIcon, dockerIcon, CSS3Icon, javaIcon, AWSIcon, microservicesIcon, gitIcon, menuIcon,} from '../src/assets/img/icons'
+import { AboutmeSection, ProjectsSection } from './components'
+
+
 function App() {
 
   return (
@@ -32,7 +35,7 @@ function App() {
               </div>
               <footer className='tech-stack'>
                 <img src={reactIcon} alt="react" className='tech-icons' />
-                <img src={typescriptIcon} alt="ts-svg" className='tech-icons'/>anizer
+                <img src={typescriptIcon} alt="ts-svg" className='tech-icons'/>
                 <img src={AWSIcon} alt="AWS-svg" className='tech-icons'/>
                 <img src={dockerIcon} alt="docker-svg" className='tech-icons'/>
                 <img src={CSS3Icon} alt="CSS3-svg" className='tech-icons'/>
@@ -44,11 +47,8 @@ function App() {
             </header>
           </section>
 
-          <section className='featured projects'>
-            <div className="project-container">
-
-            </div>
-          </section>
+          <ProjectsSection/>
+          <AboutmeSection/>
         </div>
       </div>
     </>

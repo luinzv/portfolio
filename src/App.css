@@ -35,7 +35,7 @@
 }
 
 .container-menu{
-  width: 80%;
+  width: 85%;
   display: flex;
   justify-content: flex-end;
 }
@@ -54,7 +54,7 @@
 
 .header-container h1,
 h2 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 500;
 }
 
@@ -128,3 +128,27 @@ h2 {
   width: 20px;
   margin: 0px 6px;
 }
+
+.project-container{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-projects{
+  width: 80%;
+  height: 150px;
+}
+.category-projects h3{
+  font-size: 15px;
+  font-weight: 500;
+  color: #5a8bd5;
+}
+
+.category-projects h2{
+  font-size: 25px;
+}
+
