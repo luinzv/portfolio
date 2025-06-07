@@ -78,8 +78,11 @@ button {
   all: unset;         
   cursor: pointer;     
   display: inline-block;
+  -webkit-tap-highlight-color: transparent;
 }
-
+button:active {
+    background-color: transparent;
+}
 input,
 textarea,
 select {
