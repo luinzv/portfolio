@@ -1,6 +1,6 @@
 import './App.css'
 import { downloadIcon, linkedinIcon, githubIcon, reactIcon, typescriptIcon, postgresqlIcon, dockerIcon, CSS3Icon, javaIcon, AWSIcon, microservicesIcon, gitIcon, menuIcon,} from '../src/assets/img/icons'
-import { AboutmeSection, ProjectsSection, CertificationsSection, SkillSection } from './components'
+import { AboutmeSection, ProjectsSection, CertificationsSection, SkillSection, FooterSection } from './components'
 
 
 function App() {
@@ -51,6 +51,7 @@ function App() {
           <AboutmeSection/>
           <CertificationsSection/>
           <SkillSection/>
+          <FooterSection/>
         </div>
       </div>
     </>

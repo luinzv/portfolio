@@ -14,7 +14,13 @@ import microservicesIcon from './microservices.svg'
 import gitIcon from './git.svg'
 import menuIcon from './menu.svg'
 import arrowup from './arrow-up.svg'
+import instagramIcon from './instagram.svg'
+import linkedin2Icon from './linkedin2.svg'
+import discordIcon from './discord.svg'
+import mailIcon from './mail.svg'
+
 
 export { downloadIcon, linkedinIcon, githubIcon, reactIcon, typescriptIcon, postgresqlIcon, redisIcon, dockerIcon, CSS3Icon,
-  javaIcon, AWSIcon,cybersegurityIcon, microservicesIcon, gitIcon, menuIcon, arrowup }
+  javaIcon, AWSIcon,cybersegurityIcon, microservicesIcon, gitIcon, menuIcon, arrowup, instagramIcon, linkedin2Icon,
+discordIcon, mailIcon }
   
