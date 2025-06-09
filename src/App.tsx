@@ -41,7 +41,6 @@ function App() {
                 <img src={CSS3Icon} alt="CSS3-svg" className='tech-icons'/>
                 <img src={javaIcon} alt="java-svg" className='tech-icons'/>
                 <img src={postgresqlIcon} alt="postgreSQL-svg" className='tech-icons'/>
-                <img src={microservicesIcon} alt="microservices-svg" className='tech-icons'/>
                 <img src={gitIcon} alt="git-svg" className='tech-icons'/>
               </footer>
             </header>
