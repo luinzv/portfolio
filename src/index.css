@@ -63,7 +63,6 @@ body,
 #root{
   width: 100%;
   height: 100%;
-  color-scheme: light dark;
   background-color:#161719;
   font-family: Poppins, sans-serif;
 }
