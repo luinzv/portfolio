@@ -5,6 +5,9 @@
     align-items: center;
     justify-content: center;
 }
+#mis-skills {
+  scroll-margin-top: 100px;
+}
 
 .skills-container {
     width: 80%;

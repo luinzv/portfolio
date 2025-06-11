@@ -2,7 +2,7 @@ import './SkillSection.css'
 
 export const SkillSection = () => {
     return (
-        <section className='skillSection'>
+        <section className='skillSection' id='mis-skills'>
             <div className="skills-container">
                 <header>
                     <h3>SKILLS</h3>

@@ -20,15 +20,15 @@ function App() {
                 </div>
               </div>
               <ul className='sections'>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Proyectos</a></li>
-                <li><a href="">Sobre mi</a></li>
-                <li><a href="">Certificaciones</a></li>
-                <li><a href="">Skills</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#mis-proyectos">Proyectos</a></li>
+                <li><a href="#sobre-mi">Sobre mi</a></li>
+                <li><a href="#mis-certificaciones">Certificaciones</a></li>
+                <li><a href="#mis-skills">Skills</a></li>
               </ul>
             </div>
           </nav>
-          <section className='home'>
+          <section className='home' id='home'>
             <header className='header-container'>
               <a href="#" className='download'>
                 <img src={downloadIcon} alt="svg-download" className='svg-download' />

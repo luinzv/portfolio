@@ -13,6 +13,10 @@
     display: grid;
 }
 
+#mis-proyectos{
+    scroll-margin-top: 100px;
+}
+
 .category-projects h3 {
     font-size: 15px;
     font-weight: 500;

@@ -15,6 +15,9 @@
     color: #5a8bd5;
     margin: 0;
 }
+#mis-certificaciones {
+  scroll-margin-top: 100px; 
+}
 
 .certifications {
     display: grid;

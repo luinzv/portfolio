@@ -10,8 +10,8 @@ export const ProjectsSection = () => {
     const projectsFilter = filter === "Todos" ? projects : projects.filter(p => p.category === filter);
 
     return (
-        <section className='featured-projects'>
-            <div className="project-container">
+        <section className='featured-projects' id="mis-proyectos">
+            <div className="project-container" >
 
                 <header className="category-projects">
                     <h3>PROYECTOS</h3>

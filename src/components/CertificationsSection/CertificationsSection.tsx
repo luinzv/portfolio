@@ -3,7 +3,7 @@ import { arrowup } from '../../assets/img/icons'
 
 export const CertificationsSection = () => {
   return (
-    <section className='section-certifications'>
+    <section className='section-certifications' id='mis-certificaciones'>
       <div className="certifications-container">
         <header className='certifications-header'>
           <h3>CERTIFICACIONES</h3>

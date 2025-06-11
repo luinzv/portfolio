@@ -9,6 +9,10 @@
   height: 100%;
 }
 
+#home {
+  scroll-margin-top: 100px; /* Ajusta este valor a la altura de tu navbar */
+}
+
 .home {
   margin-top: 50px;
   background-color: #1c1d1e;
@@ -81,6 +85,10 @@
   border-radius: 10px;
   margin: 10px;
   gap: 3px;
+}
+
+.download:hover{
+  background-color: #232425;
 }
 
 .download span {
@@ -177,5 +185,10 @@
     justify-content: center;
     font-weight: 300;
     font-size: 14px;
+
+  }
+
+  .sections li:hover a{
+    color: #dfd8d8;
   }
 }

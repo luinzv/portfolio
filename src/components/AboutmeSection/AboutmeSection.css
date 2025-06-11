@@ -10,6 +10,9 @@
     width: 80%;
 }
 
+#sobre-mi{
+    scroll-margin-top: 100px;
+}
 
 .header-about h2 {
     font-size: 24px;
