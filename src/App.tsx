@@ -1,5 +1,5 @@
 import './App.css'
-import { downloadIcon, linkedinIcon, githubIcon, reactIcon, typescriptIcon, postgresqlIcon, dockerIcon, CSS3Icon, javaIcon, AWSIcon, gitIcon, menuIcon, } from './assets/img/icons'
+import { downloadIcon, linkedinIcon, githubIcon, reactIcon, typescriptIcon, postgresqlIcon, dockerIcon, CSS3Icon, AWSIcon, gitIcon, menuIcon, } from './assets/img/icons'
 import { AboutmeSection, ProjectsSection, CertificationsSection, SkillSection, FooterSection } from './components'
 import meIcon from './assets/svg/me-icon.png'
 import { FadeIn } from './motion/MotionWrapper';
@@ -11,7 +11,6 @@ function App() {
     { src: AWSIcon, alt: "AWS-svg" },
     { src: dockerIcon, alt: "docker-svg" },
     { src: CSS3Icon, alt: "CSS3-svg" },
-    { src: javaIcon, alt: "java-svg" },
     { src: postgresqlIcon, alt: "postgreSQL-svg" },
     { src: gitIcon, alt: "git-svg" },
   ];
