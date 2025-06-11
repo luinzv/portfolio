@@ -67,6 +67,11 @@
   height: 48px;
 }
 
+.me-text {
+  visibility: hidden;
+  height: 30px; 
+}
+
 @media (min-width: 900px) {
     .menu-icon {
         display: none;
@@ -99,7 +104,17 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
+        
     }
+
+    .me-text {
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2;
+    gap: 2px;
+  }
 
     .sections {
         height: auto;
