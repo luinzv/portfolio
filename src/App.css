@@ -10,7 +10,7 @@
 }
 
 #home {
-  scroll-margin-top: 100px; /* Ajusta este valor a la altura de tu navbar */
+  scroll-margin-top: 100px;
 }
 
 .home {
@@ -122,7 +122,12 @@
   font-weight: 300;
   padding: 18px 25px;
 }
-
+.ancor-container a img{
+  transition: transform 0.4s ease;
+}
+.ancor-container a:hover img{
+  transform: translateX(5px);
+}
 
 .socialIcons {
   width: 17px;
