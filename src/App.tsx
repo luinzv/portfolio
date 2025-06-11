@@ -1,7 +1,7 @@
 import './App.css'
-import { downloadIcon, linkedinIcon, githubIcon, reactIcon, typescriptIcon, postgresqlIcon, dockerIcon, CSS3Icon, javaIcon, AWSIcon, gitIcon, menuIcon,} from '../src/assets/img/icons'
+import { downloadIcon, linkedinIcon, githubIcon, reactIcon, typescriptIcon, postgresqlIcon, dockerIcon, CSS3Icon, javaIcon, AWSIcon, gitIcon, menuIcon,} from './assets/img/icons'
 import { AboutmeSection, ProjectsSection, CertificationsSection, SkillSection, FooterSection } from './components'
-
+import meIcon from './assets/svg/me-icon.png'
 
 function App() {
 
@@ -12,6 +12,20 @@ function App() {
           <nav className='navbar-menu'>
             <div className="container-menu">
               <img src={menuIcon} alt="" className='menu-icon'/>
+              <div className="me-container">
+                <img src={meIcon} alt="img" className='me'/>
+                <div className="me-text">
+                  <p className='name'>Luis Contreras</p>
+                  <p className='profession'>Software Enginner</p>
+                </div>
+              </div>
+              <ul className='sections'>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Proyectos</a></li>
+                <li><a href="">Sobre mi</a></li>
+                <li><a href="">Certificaciones</a></li>
+                <li><a href="">Skills</a></li>
+              </ul>
             </div>
           </nav>
           <section className='home'>

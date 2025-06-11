@@ -34,11 +34,12 @@
   height: 48px;
 }
 
-.container-menu{
+.container-menu {
   width: 85%;
   display: flex;
   justify-content: flex-end;
 }
+
 .menu-icon {
   width: 30px;
 }
@@ -52,7 +53,7 @@
   text-align: center;
 }
 
-.header-container h1{
+.header-container h1 {
   font-size: clamp(45px, 10vw, 80px);
   font-weight: 500;
 }
@@ -129,4 +130,52 @@
 .tech-icons {
   width: 30px;
   margin: 0px 6px;
+}
+
+.me-container{
+  display: none;  
+}
+.sections{
+    display: none;
+  }
+
+@media (min-width: 900px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .container-menu {
+    justify-content: space-between;
+    width: 69%;
+  }
+  .me-container{
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  color: #b3b2b2;
+  }
+  .name{
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .profession{
+    font-size: 10px;
+    font-weight: 300;
+  }
+  .me{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .sections{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    color: #b3b2b2;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 14px;
+  }
 }

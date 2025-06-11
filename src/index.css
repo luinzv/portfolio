@@ -68,7 +68,7 @@ body,
   font-family: Poppins, sans-serif;
 }
 
-a {
+a, li {
   all: unset;        
   cursor: pointer;    
   display: inline; 

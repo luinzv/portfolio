@@ -43,6 +43,12 @@
     font-weight: 300;
 }
 
+.about-text{
+    color: #b3b2b2;
+}
+.study-text{
+    color: #b3b2b2;
+}
 
 .study-card {
     background-color: #dbe0e409;
@@ -62,7 +68,7 @@
 
 @media (min-width:1100px) {
     .about-container {
-        width: 75%;
+        width: 69%;
     }
 
     .about {
