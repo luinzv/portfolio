@@ -62,6 +62,11 @@
     color: white;
 }
 
+.sections {
+  visibility: hidden;
+  height: 48px;
+}
+
 @media (min-width: 900px) {
     .menu-icon {
         display: none;
@@ -97,6 +102,8 @@
     }
 
     .sections {
+        height: auto;
+        visibility: visible;
         display: flex;
         flex-direction: row;
         gap: 25px;
