@@ -1,19 +1,29 @@
 import './App.css'
-import { downloadIcon, linkedinIcon, githubIcon, reactIcon, typescriptIcon, postgresqlIcon, dockerIcon, CSS3Icon, javaIcon, AWSIcon, gitIcon, menuIcon,} from './assets/img/icons'
+import { downloadIcon, linkedinIcon, githubIcon, reactIcon, typescriptIcon, postgresqlIcon, dockerIcon, CSS3Icon, javaIcon, AWSIcon, gitIcon, menuIcon, } from './assets/img/icons'
 import { AboutmeSection, ProjectsSection, CertificationsSection, SkillSection, FooterSection } from './components'
 import meIcon from './assets/svg/me-icon.png'
+import { FadeIn } from './motion/MotionWrapper';
 
 function App() {
-
+  const techIcons = [
+    { src: reactIcon, alt: "react" },
+    { src: typescriptIcon, alt: "ts-svg" },
+    { src: AWSIcon, alt: "AWS-svg" },
+    { src: dockerIcon, alt: "docker-svg" },
+    { src: CSS3Icon, alt: "CSS3-svg" },
+    { src: javaIcon, alt: "java-svg" },
+    { src: postgresqlIcon, alt: "postgreSQL-svg" },
+    { src: gitIcon, alt: "git-svg" },
+  ];
   return (
     <>
       <div id="app-root">
         <div id="content-wrapper">
           <nav className='navbar-menu'>
             <div className="container-menu">
-              <img src={menuIcon} alt="" className='menu-icon'/>
+              <img src={menuIcon} alt="" className='menu-icon' />
               <div className="me-container">
-                <img src={meIcon} alt="img" className='me'/>
+                <img src={meIcon} alt="img" className='me' />
                 <div className="me-text">
                   <p className='name'>Luis Contreras</p>
                   <p className='profession'>Software Enginner</p>
@@ -48,23 +58,20 @@ function App() {
                 </a>
               </div>
               <footer className='tech-stack'>
-                <img src={reactIcon} alt="react" className='tech-icons' />
-                <img src={typescriptIcon} alt="ts-svg" className='tech-icons'/>
-                <img src={AWSIcon} alt="AWS-svg" className='tech-icons'/>
-                <img src={dockerIcon} alt="docker-svg" className='tech-icons'/>
-                <img src={CSS3Icon} alt="CSS3-svg" className='tech-icons'/>
-                <img src={javaIcon} alt="java-svg" className='tech-icons'/>
-                <img src={postgresqlIcon} alt="postgreSQL-svg" className='tech-icons'/>
-                <img src={gitIcon} alt="git-svg" className='tech-icons'/>
+                {techIcons.map((icon, i) => (
+                  <FadeIn key={icon.alt} delay={i * 0.1}>
+                    <img src={icon.src} alt={icon.alt} className='tech-icons' />
+                  </FadeIn>
+                ))}
               </footer>
             </header>
           </section>
 
-          <ProjectsSection/>
-          <AboutmeSection/>
-          <CertificationsSection/>
-          <SkillSection/>
-          <FooterSection/>
+          <ProjectsSection />
+          <AboutmeSection />
+          <CertificationsSection />
+          <SkillSection />
+          <FooterSection />
         </div>
       </div>
     </>
