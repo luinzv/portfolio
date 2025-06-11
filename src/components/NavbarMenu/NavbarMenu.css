@@ -23,6 +23,7 @@
 }
 
 .mobile-menu {
+    visibility: hidden;
     position: absolute;
     width: 65%;
     height: 100vh;
@@ -41,6 +42,7 @@
   transform: translateX(0);
   opacity: 1;
   pointer-events: auto;
+  visibility: visible;
 }
 
 .sections-menu {
