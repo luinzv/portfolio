@@ -13,10 +13,10 @@ export const FooterSection = () => {
                 <p>Developed by Luis Contreras</p>
             </div>
             <ul className="ancors-container">
-                <li><a href="#" target="_blank"><img src={linkedin2Icon} alt="" className='svg'/></a></li>
-                <li><a href="#" target="_blank"> <img src={githubIcon} alt="" className='svg'/></a></li>
+                <li><a href="https://www.linkedin.com/in/luis-contreras-9b248436a/" target="_blank"><img src={linkedin2Icon} alt="" className='svg'/></a></li>
+                <li><a href="https://github.com/luinzv" target="_blank"> <img src={githubIcon} alt="" className='svg'/></a></li>
                 <li><a href="#" target="_blank"> <img src={discordIcon} alt="" className='svg'/></a></li>
-                <li><a href="#" target="_blank"> <img src={instagramIcon} alt="" className='svg'/></a></li>
+                <li><a href="https://www.instagram.com/luinnzv/" target="_blank"> <img src={instagramIcon} alt="" className='svg'/></a></li>
             </ul>
         </div>
     </footer>

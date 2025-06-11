@@ -38,11 +38,11 @@ function App() {
               <h2>Luis Contreras</h2>
               <h3>Full Stack React & Microservices</h3>
               <div className="ancor-container">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/luis-contreras-9b248436a/" target="_blank">
                   Linkedin
                   <img src={linkedinIcon} alt="linkedin-svg" className='socialIcons' />
                 </a>
-                <a href="#">
+                <a href="https://github.com/luinzv" target="_blank">
                   Github
                   <img src={githubIcon} alt="github-svg" className='socialIcons' />
                 </a>

@@ -47,6 +47,11 @@
 .certification a p {
     font-weight: 300;
     color: #b3b2b2;
+    transition: all 0.3s;
+}
+
+.certification a p:hover {
+    color: white;
 }
 
 .certification h3 {
